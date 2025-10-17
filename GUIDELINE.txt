@@ -1,0 +1,135 @@
+PROPOSAL PENELITIAN
+
+JUDUL: PENGEMBANGAN FRONT-END DASHBOARD IOT GREENHOUSE KEBUN RAYA ITERA DENGAN METODE WATERFALL
+
+BAB I. PENDAHULUAN
+
+Bab ini berfungsi untuk membangun fondasi argumen penelitian, dimulai dari konteks yang luas hingga mengerucut pada masalah spesifik yang akan diselesaikan.
+
+1.1. Latar Belakang Masalah
+
+Paragraf 1: Konteks Global & Urgensi Teknologi. Menguraikan peran fundamental teknologi Internet of Things (IoT) dan sistem monitoring berbasis dashboard dalam modernisasi sektor pertanian presisi, khususnya pada lingkungan terkontrol seperti greenhouse. Paparkan bagaimana teknologi ini secara global berkontribusi pada optimasi sumber daya dan peningkatan produktivitas.
+
+Paragraf 2: Konteks Lokal & Objek Penelitian. Memperkenalkan kondisi spesifik di Greenhouse Kebun Raya ITERA sebagai objek penelitian. Deskripsikan arsitektur dan fungsionalitas dashboard yang ada saat ini, serta peran vitalnya dalam operasional harian.
+
+Paragraf 3: Identifikasi Masalah Berbasis Data. Menyajikan temuan empiris dari studi pendahuluan. Paparkan skor usability kuantitatif yang diperoleh melalui metode UMUX pada dashboard eksisting. Lanjutkan dengan analisis kualitatif dari hasil wawancara, rincikan pain points (titik masalah) utama dan harapan fungsional yang diidentifikasi dari pengguna.
+
+Paragraf 4: Celah Penelitian (Research Gap). Memposisikan penelitian ini dalam lanskap akademis. Rujuk penelitian sebelumnya (Nugraha, 2023) dan jelaskan kontribusinya. Kemudian, tegaskan celah yang ada, yaitu penelitian tersebut belum secara spesifik membahas atau mengukur implementasi standar pengembangan front-end modern yang berorientasi pada performa, aksesibilitas, dan kualitas kode.
+
+Paragraf 5: Landasan Solusi & Standar Kualitas. Mendefinisikan secara operasional "standar kualitas perangkat lunak modern" dengan merujuk pada standar industri yang terukur: Core Web Vitals dari Google untuk performa, Web Content Accessibility Guidelines (WCAG) dari W3C untuk aksesibilitas, dan panduan gaya kode seperti Airbnb Style Guide untuk kualitas kode. Standar ini akan menjadi tolok ukur (benchmark) keberhasilan proyek.
+
+Paragraf 6: Justifikasi Metodologi. Mengargumentasikan pemilihan Metode Waterfall sebagai kerangka kerja pengembangan. Justifikasi didasarkan pada karakteristik proyek: (1) Kebutuhan fungsional yang telah terdefinisi dengan jelas di awal melalui analisis pengguna, dan (2) Ruang lingkup yang spesifik dan terbatas pada pengembangan front-end.
+
+1.2. Rumusan Masalah
+
+Bagaimana merancang dan membangun front-end Dashboard IoT Greenhouse Kebun Raya ITERA yang memenuhi kebutuhan fungsional pengguna serta standar kualitas perangkat lunak yang telah didefinisikan secara operasional?
+
+Bagaimana hasil evaluasi front-end baru berdasarkan metrik usability, performa, aksesibilitas, dan kualitas kode setelah pengembangan?
+
+1.3. Tujuan Penelitian
+
+Merancang dan membangun front-end Dashboard IoT Greenhouse Kebun Raya ITERA yang sesuai dengan kebutuhan fungsional hasil analisis dan mengimplementasikan standar kualitas perangkat lunak.
+
+Mengevaluasi dan menganalisis hasil pengembangan front-end baru menggunakan metrik pengujian usability (UMUX & Task-Based), performa (Lighthouse), aksesibilitas (Siteimprove), dan kualitas kode (ESLint).
+
+1.4. Batasan Masalah
+
+Domain: Pengembangan hanya mencakup lapisan front-end (antarmuka pengguna) dari aplikasi dashboard.
+
+Desain: Proses desain UI/UX tidak mencakup perancangan sistem desain (design system) atau identitas visual (branding) secara komprehensif.
+
+Teknologi: Penelitian tidak mencakup pengembangan pada sisi back-end, rekayasa database, maupun intervensi pada perangkat keras IoT.
+
+1.5. Manfaat Penelitian
+
+Manfaat Praktis: Menghasilkan artefak berupa front-end dashboard yang lebih fungsional, performan, dan mudah digunakan bagi pengelola Greenhouse Kebun Raya ITERA.
+
+Manfaat Teoritis: Menyajikan studi kasus penerapan metode Waterfall yang divalidasi dengan metrik pengujian kualitas perangkat lunak secara kuantitatif dan kualitatif.
+
+BAB II. TINJAUAN PUSTAKA
+
+Bab ini mengulas literatur yang relevan untuk membangun fondasi teoretis dan memposisikan penelitian.
+
+2.1. Penelitian Terkait
+[Uraikan minimal 5 jurnal atau studi relevan. Untuk setiap studi, paparkan: (1) Latar belakang dan tujuan, (2) Metodologi, (3) Hasil utama, dan (4) Analisis relevansi serta perbedaannya dengan penelitian ini.]
+
+2.2. Landasan Teori
+
+Pengembangan Front-End: [Definisi, teknologi (React.js, TypeScript), dan tren terkini.]
+
+Dashboard IoT: [Fungsi, karakteristik, dan tantangan dalam visualisasi data sensor.]
+
+Metode Pengembangan Waterfall: [Tahapan, keunggulan, dan kelemahan.]
+
+Arsitektur Front-End: [Konsep Atomic Design untuk sistem komponen dan Feature-Sliced Design (FSD) untuk skalabilitas.]
+
+Pengujian Kualitas Perangkat Lunak: [Definisi dan metode untuk Usability, Performance (Core Web Vitals), Accessibility (WCAG), dan Code Quality (ESLint).]
+
+BAB III. METODOLOGI PENELITIAN
+
+Bab ini menjelaskan secara rinci dan sistematis langkah-langkah yang dilakukan untuk menjawab rumusan masalah.
+
+3.1. Alur Penelitian
+[Sajikan diagram alir (flowchart) yang memvisualisasikan seluruh tahapan penelitian.]
+
+3.2. Tahapan Penelitian (Metode Waterfall)
+
+3.2.1. Requirements (Analisis Kebutuhan)
+
+Pengumpulan Data: Melaksanakan wawancara semi-terstruktur dengan pengguna akhir.
+
+Analisis Data: Menerapkan metode Thematic Analysis pada transkrip wawancara.
+
+Output: Menghasilkan Dokumen Kebutuhan Fungsional (DKF) dalam bentuk tabel.
+
+3.2.2. Design (Perancangan Sistem)
+
+Perancangan Alur & Antarmuka: Mendesain user flow, wireframe (Lo-Fi), dan mockup (Hi-Fi).
+
+Validasi Desain: Memastikan validitas desain menggunakan Matriks Ketertelusuran yang menghubungkan DKF dengan elemen wireframe.
+
+Perancangan Arsitektur: Merancang struktur proyek berdasarkan Atomic Design & FSD.
+
+3.2.3. Implementation (Implementasi)
+
+Pembangunan Kode: Melakukan implementasi kode menggunakan React.js dan TypeScript.
+
+Penerapan Paradigma Kode Berkualitas: Menerapkan best practices yang terukur (arsitektur FSD, type safety, Clean Code).
+
+3.2.4. Testing (Pengujian)
+Rencana pengujian diringkas dalam tabel berikut:
+| Dimensi Kualitas | Metode Pengujian | Alat Bantu | Metrik & Target Keberhasilan |
+| :--- | :--- | :--- | :--- |
+| Usability | Kuantitatif & Kualitatif | UMUX & Think-Aloud | Skor > 80 & Tingkat keberhasilan > 90% |
+| Performance | Analisis Kuantitatif | Google Lighthouse | Skor > 90 |
+| Accessibility| Analisis Kuantitatif | Siteimprove | Skor kepatuhan WCAG > 90 |
+| Code Quality | Analisis Statis | ESLint | 0 errors |
+
+3.2.5. Maintenance (Pemeliharaan)
+Menyusun dokumentasi proyek (README.md, dokumentasi komponen) untuk memfasilitasi pengembangan di masa depan.
+
+BAB IV. HASIL DAN PEMBAHASAN
+
+Bab ini menyajikan temuan dari proses pengembangan dan pengujian, diikuti dengan analisis mendalam.
+
+4.1. Hasil Pengembangan
+[Tampilkan hasil akhir front-end dashboard melalui screenshot beranotasi.]
+
+4.2. Hasil Pengujian
+[Sajikan data dari setiap pengujian secara objektif dalam bentuk tabel dan grafik.]
+
+4.3. Pembahasan
+[Interpretasikan hasil pengujian, hubungkan dengan tujuan penelitian dan landasan teori, serta diskusikan implikasi dan limitasi penelitian.]
+
+BAB V. KESIMPULAN DAN SARAN
+
+Bab ini menutup laporan dengan merangkum temuan utama dan memberikan rekomendasi.
+
+5.1. Kesimpulan
+[Sajikan rangkuman hasil penelitian dalam beberapa poin ringkas yang secara langsung menjawab rumusan masalah.]
+
+5.2. Saran
+
+Saran untuk Pengembangan Lanjutan: [Fitur atau perbaikan teknis di masa depan.]
+
+Saran untuk Penelitian Selanjutnya: [Topik atau metodologi lain untuk penelitian berikutnya.]
