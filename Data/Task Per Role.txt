@@ -1,0 +1,132 @@
+10 Responden
+
+Task Super Admin
+Login
+Lihat Data Dashboard Utama, sensor/aktuator pada rentang waktu tertentu -> Brief ke responden kalau tambahkan 
+Lihat data notifikasi
+terapkan filter di notifikasi
+Lihat data greenhouse/sector
+Lihat Detail data greenhouse tertentu
+Tambahkan data greenhouse
+Edit data greenhouse
+Hapus data greehouse
+Lihat data Tandon/Reservoir
+Lihat Detail data Tandon/Reservoir tertentu
+Tambahkan data Tandon/Reservoir
+Edit data Tandon/Reservoir
+Hapus data Tandon/Reservoir
+Lihat data Robot
+Lihat Detail data Robot tertentu
+Tambahkan data Robot
+Edit data Robot
+Hapus data Robot
+Lihat data monitoring sensor
+Lihat data sensor tertentu
+Terapkan filter data sensor(pilih lokasi, pilih jenis sensor, pilih online/offline, cari nama sensor, pagination)
+Tambah Data Sensor
+Edit Data Sensor
+Hapus Data Sensor
+Lihat data controlling aktuator
+Lihat data aktuator tertentu
+Terapkan filter data aktuator(pilih lokasi, pilih jenis aktuator, pilih online/offline, cari nama aktuator, pagination)
+Nyalakan aktuator
+Tambah Data aktuator
+Edit Data aktuator
+Hapus Data aktuator
+Lihat data automation sensor
+Tambahkan data automation sensor
+Edit data automation sensor
+Hapus data automation sensor
+Cari Sensor/Aktuator di automation sensor
+Lihat data automation jadwal
+Tambahkan data automation jadwal
+Edit data automation jadwal
+Hapus data automation jadwal
+Cari Sensor/Aktuator di automation jadwal
+Download Data Sensor/Aktuator
+Ubah Data Profile
+Update Password
+Update Tema (Light, Dark, System)
+
+Lihat data manajemen user
+Tambahkan data user
+Edit data user
+Hapus data user
+Logout
+
+
+Task Pengelola
+Login
+Lihat Data Dashboard Utama, sensor/aktuator pada rentang waktu tertentu -> Brief ke responden kalau tambahkan 
+Lihat data notifikasi
+terapkan filter di notifikasi
+Lihat data greenhouse/sector
+Lihat Detail data greenhouse tertentu
+Tambahkan data greenhouse
+Edit data greenhouse
+Hapus data greehouse
+Lihat data Tandon/Reservoir
+Lihat Detail data Tandon/Reservoir tertentu
+Tambahkan data Tandon/Reservoir
+Edit data Tandon/Reservoir
+Hapus data Tandon/Reservoir
+Lihat data Robot
+Lihat Detail data Robot tertentu
+Tambahkan data Robot
+Edit data Robot
+Hapus data Robot
+Lihat data monitoring sensor
+Lihat data sensor tertentu
+Terapkan filter data sensor(pilih lokasi, pilih jenis sensor, pilih online/offline, cari nama sensor, pagination)
+Tambah Data Sensor
+Edit Data Sensor
+Hapus Data Sensor
+Lihat data controlling aktuator
+Lihat data aktuator tertentu
+Terapkan filter data aktuator(pilih lokasi, pilih jenis aktuator, pilih online/offline, cari nama aktuator, pagination)
+Nyalakan aktuator
+Tambah Data aktuator
+Edit Data aktuator
+Hapus Data aktuator
+Lihat data automation sensor
+Tambahkan data automation sensor
+Edit data automation sensor
+Hapus data automation sensor
+Cari Sensor/Aktuator di automation sensor
+Lihat data automation jadwal
+Tambahkan data automation jadwal
+Edit data automation jadwal
+Hapus data automation jadwal
+Cari Sensor/Aktuator di automation jadwal
+Download Data Sensor/Aktuator
+Ubah Data Profile
+Update Password
+Update Tema (Light, Dark, System)
+Logout
+
+
+Task Staff
+Login
+Lihat Data Dashboard Utama, sensor/aktuator pada rentang waktu tertentu -> Brief ke responden kalau tambahkan 
+Lihat data notifikasi
+terapkan filter di notifikasi
+Lihat data greenhouse/sector
+Lihat Detail data greenhouse tertentu
+Lihat data Tandon/Reservoir
+Lihat Detail data Tandon/Reservoir tertentu
+Lihat data Robot
+Lihat data monitoring sensor
+Lihat data sensor tertentu
+Terapkan filter data sensor(pilih lokasi, pilih jenis sensor, pilih online/offline, cari nama sensor, pagination)
+Lihat data controlling aktuator
+Lihat data aktuator tertentu
+Terapkan filter data aktuator(pilih lokasi, pilih jenis aktuator, pilih online/offline, cari nama aktuator, pagination)
+Nyalakan aktuator
+Lihat data automation sensor
+Cari Sensor/Aktuator di automation sensor
+Lihat data automation jadwal
+Cari Sensor/Aktuator di automation jadwal
+Ubah Data Profile
+Update Password
+Update Tema (Light, Dark, System)
+Logout

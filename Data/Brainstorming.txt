@@ -1,0 +1,17 @@
+Saya ingin melakukan penelitian mengenai merancang kembali ui/ux dan frontend sistem dashboard IOT Kebun Raya ITERA dengan metode Waterfall, tahapan penelitian yang ingin saya lakukan adalah
+
+1. Preeliminary Researh
+a. memahami pengguna saat ini dulu, yaitu merancang daftar pertanyaan yang mengacu pada penerapan best practice ui/ux (text, warna, navigasi, dan sebagainya) dengan gambaran pengguna saya itu adalah remaja awal - lansia 60 an dan mendapatkan pain poin dari gambaran pengguna tersebut. (Ada tidak cara perancangan selain menggunakan rumus usability yang ada, jadi saya membuat pertanyaan sendiri terkait penerapan best practice ui/ux menyesuaikan dengan pengguna saya yang harus berdasarkan riset yang sangat mendalam, lalu nanti saya petakan ke dalam skala liekert kurang lebih 8 pertanyaan boleh lah (ada yang positif dan ada yang negatif)).
+b. Melakukan pengujian Google Lighthouse dari setiap halaman untuk mengecek nilai (Performa, Accessibility, Best Practice, SEO)
+c. Melakukan pengujian linter code di frontend supaya project bisa skalabel dan menerapkan keseragaman code bila ada pengembangan lanjutan dari apa yang sudah saya buat,
+
+2. Membuat latar belakang masalah yang kokoh kenapa topik ini harus di solve, apa urgensi nya, apa gap penelitian nya
+
+3. Membuat batasan masalah yang fokus menyelesaikan masalah pengguna ke UI/UX dan pengembangan best practice pengembangan Frontend saja tidak ke backend sama sekali, 
+
+4. Mencari minimal 5 Tinjaun Literatur (Yang pembahasannya mirip dengan apa yang saya bahas) baik itu metode, cara penyelesaian, tools, dsb (yang nantinya akan saya buat tabel, tapi saat ini berikan linknya dulu saja)
+
+5. Membuat instrumentasi pengujian usability sendiri terkait penerapan best practice UI/UX dan menggunakan skala likert (tidak boleh pakai SUS, UMUX, UEQ, dan template usability lainnya)
+
+
+bisa bantu saya untuk menyelesaikan permasalahan ini?
