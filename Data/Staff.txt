@@ -1,0 +1,33 @@
+Staff
+Login ke website
+Lihat informasi di dashboard utama
+Lihat notifikasi dan lakukan filtering
+Lakukan monitoring pada greenhouse smart farming
+Lakukan monitoring tandon/rumah pemupukan
+Lakukan monitoring pada robot tertentu
+Cari aktuator nyalakan 1 aktuator pada greenhouse smart farming
+Download 1 data sensor tertentu dengan rentang waktu 1 bulan
+Lihat automation yang ada pada sebuah sensor
+Lakukan Pengaturan Profil
+Pengaturan Kata Sandi
+Tema Tampilan
+
+Pengelola
+Login ke website
+Lakukan penambahan sektor greenhouse
+Lakukan penambahan data sensor, data aktuator, data robot, data tandon/rumah pemupukan pada greenhouse yang baru dibuat
+Lakukan pengeditan data sensor, data aktuator, data robot, data tandon/rumah pemupukan  yang sudah ditambahkan
+Lakukan kontrol manual aktuator pada greenhouse tertentu
+Lakukan automasi berdasarkan waktu pada aktuator tertentu
+Lakukan automasi berdasarkan treshold sensor pada aktuator tertentu
+Lakukan Pengaturan Profil
+Pengaturan Kata Sandi
+Tema Tampilan
+
+Super admin
+Login ke website
+Lakukan penghapusan data sensor, data aktuator, data robot, data tandon/rumah pemupukan  yang ada
+Lakukan manajemen pengguna mulai dari menambah, mengedit, dan menghapus
+Lakukan Pengaturan Profil
+Pengaturan Kata Sandi
+Tema Tampilan
