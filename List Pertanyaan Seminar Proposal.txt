@@ -1,0 +1,44 @@
+Kenapa perancangan ulang?
+
+Karena:
+1. 27 stakeholder setuju atas perancangan ulang data nya X%
+2. Karena ditemukan X masalah dari para evaluator
+3. Karena integrasinya diluar scope penelitian (tapi nanti pasti di integrasikan) hanya saja tidak dibahas
+
+Kenapa membahas hanya front-end saja?
+1. Karena evaluasinya menggunakan heuristic evaluation yang dimana nilai usability (kegunaan) lah yang ditekankan yang dimana desain ui/ux secara mendalam tidak dibahas secara detail di penelitian ini
+2. Karena dengan wireframe saja peneliti bisa memetakan flow website akan seperti apa
+3. Karena peneliti sudah memiliki komponen frontend yang cukup banyak (jadi nanti tinggal menyusun puzzle) lengkap dengan desain system (hanya saja tidak dibahas secara mendalam)
+
+Kenapa metode waterfall?
+1. Karena metode ini strict terhadap setiap proses memastikan seluruh tahapannya itu dijalankan sebelum masuk ke tahapan selanjutnya (karena objektif penelitian ini melakukan perancangan ulang front end dengan pertimbangan masalah dan solusi yang ditemukan oleh para evaluator), hal ini juga di terapkan di penelitian gerry suwanda(masih bisa digunakan)
+2. Dibanding dengan metode yang lainnya waterfall ini cocok untuk project yang fokus dan objektif nya sudah jelas
+3. Kenapa tidak ada iterasi ke pengguna, karena hasil nanti akan dibandingkan sebelum perancangan ulang dan setelah perancangan ulang, dan hal itulah yang menjadi alasan penelitian ini berhasil meningkatkan usability dan performa/tidak
+
+Kenapa performa juga harus menjadi fokus penelitianmu?
+
+Kenapa pakai google lighthouse untuk tes performa di frontend?
+
+Kenapa pakai ISO 9241-11?
+1.(karena yang diuji di penelitian ini terkait nilai usability nya) menurut jurnal medisol, e-repor, dan Permasalahan Usability Situbondo Tera itu menggunakan ISO 9241-11
+2. karena masih banyak yang menggunakan sekitar 8.750 di 5 tahun terakhir
+3. dan 3 metrik (efektif, efisien, dan satisfaction) yang diukur bisa menjadi benchmark yang jelas terkait nilai kegunaan website
+
+Bagaimana nanti kamu menjamin penelitian kamu nanti meningkatkan usability dan performa?
+dari masukan para evaluator yang memiliki pengalaman di bidang ui/ux dan memahami dengan detail hal apa saja yang perlu diperhatikan pada saat implementasi frontend menurut dokumentasi resmi google lighthouse
+
+Apa itu purposive sampling, kenapa menggunakan itu, dan bagaimana kamu menentukan responden itu emang cocok untuk penelitian mu?
+(tambahkan apa dan kenapanya) Karena daftar stakeholder yang ada di lampiran lah yang memang pernah/kedepannya akan menggunakan website ini (Staff anak KKN), (Pengelola tim MBKM, beberapa Dosen, dan ada salah 1 Pengelola Greenhouse Kebun Raya), (Super Admin Ketua ITERAHERO dan Linux sebagai Orang orangan IT)
+
+
+
+
+
+
+
+
+
+
+
+
+
