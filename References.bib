@@ -100,10 +100,35 @@
 }
 
 % REFERENSI 9
+% Point yang dikutip : However, when moving toward continual processing with low delays, polling becomes expensive if the datastore is not designed for this kind of usage. The more often you poll, the lower the percentage of requests that return new events, and thus the higher the overheads become
+% LINK : https://unidel.edu.ng/focelibrary/books/Designing%20Data-Intensive%20Applications%20The%20Big%20Ideas%20Behind%20Reliable,%20Scalable,%20and%20Maintainable%20Systems%20by%20Martin%20Kleppmann%20(z-lib.org).pdf
+% Entry for Martin Kleppmann's Designing Data-Intensive Applications book
+@book{kleppmann2017designing,
+  title={Designing Data-Intensive Applications: The Big Ideas Behind Reliable, Scalable, and Maintainable Systems},
+  author={Kleppmann, Martin},
+  year={2017},
+  publisher={O'Reilly Media}
+}
+
+% REFERENSI 10
+% POINT YANG DIKUTIP : The model also works well for peaky load, where you can spin up additional instances
+on demand to match the load coming in. As long as the work queue itself is resilient,
+this model can be used to scale both for improved throughput of work, but also for
+improved resiliency—the impact of a worker failing (or not being there) is easy to
+deal with. Work will take longer, but nothing gets lost.
+% LINK : https://book.northwind.ir/bookfiles/building-microservices/Building.Microservices.pdf
+% Entry for Sam Newman's Building Microservices book
+@book{newman2015building,
+  title={Building Microservices: Designing Fine-Grained Systems},
+  author={Newman, Sam},
+  year={2015},
+  publisher={O'Reilly Media}
+}
+
+% REFERENSI 11
 % Suhandi et al. menegaskan bahwa otomasi berperan krusial dalam meminimalisir intervensi manusia serta menjamin presisi dan konsistensi proses operasional.
 % Diambil dari statement berikut:
 % "Automation, characterized by the use of systems and processes to perform tasks with minimal human intervention, has been increasingly adopted across industries. By enabling precision, consistency, and speed, automation has the potential to significantly enhance organizational performance."  Artinya: Otomasi meminimalisir intervensi manusia dan memungkinkan presisi serta konsistensi.
-
 % "Integrasi mendalam antara IoT dan otomasi cerdas ini diperlukan untuk menciptakan efek sinergis yang menurut Suhandi et al. mampu membentuk sistem self-regulating..."
 % Diambil dari statement berikut:
 "The integration of automation with IoT technologies has the potential to create self-regulating systems that optimize operations in real time." "...this synergy can enhance both speed and accuracy, providing exponential benefits beyond the individual contributions of each technology."  Artinya: Integrasi keduanya menciptakan sistem yang bisa mengatur dirinya sendiri (self-regulating) dan memberikan manfaat sinergis melebihi penggunaan teknologi secara terpisah.
@@ -120,7 +145,7 @@
   doi     = {10.33050}
 }
 
-% REFERENSI 10
+% REFERENSI 12
 % "Abolhassani Khajeh et al. menjelaskan bahwa sensor IoT idealnya tidak hanya berfungsi sebagai alat monitoring, melainkan mampu melakukan tugas secara otonom melalui mekanisme penjadwalan waktu nyata (real-time scheduling) untuk merespons dinamika lingkungan tanpa bantuan operator."
 % Diambil dari statement berikut:
 % Ini diambil dari dua bagian:
@@ -138,7 +163,7 @@
   doi       = {10.3390/s23010232}
 }
 
-% REFERENSI 11
+% REFERENSI 13
 % note={Lihat halaman 3-6 untuk pembahasan rigiditas Waterfall dan halaman 9 untuk kompleksitas Spiral Model}
 % LINK : https://www.researchgate.net/publication/373800862_Software_Development_Life_Cycle_SDLC_Methodologies_for_Information_Systems_Project_Management
 @article{hossain2023software,
@@ -151,7 +176,7 @@
   doi={10.36948/ijfmr.2023.v05i05.6228},
 }
 
-% REFERENSI 12
+% REFERENSI 14
 % LINK : file:///C:/Users/muham/Downloads/Darlami%20Magar_Bindu.pdf
 @mastersthesis{magar2025comparative,
   title={Comparative Study of Agile Methodologies: Scrum, Kanban, and Extreme Programming (XP)},
@@ -162,7 +187,7 @@
   note={Lihat halaman 39-40 untuk perbandingan prinsip inti Scrum yang kaku vs Kanban yang fleksibel}
 }
 
-% REFERENSI 13
+% REFERENSI 15
 % LINK : http://repo.darmajaya.ac.id/3858/1/Agile%20Project%20Management%20with%20Kanban%20%28%20PDFDrive%20%29.pdf
 @book{brechner2015agile,
   title={Agile Project Management with Kanban},
@@ -171,30 +196,6 @@
   publisher={Microsoft Press},
   address={Redmond, Washington},
   note={Lihat halaman 10-11 dan 15 untuk pembahasan WIP limits dan konsep production-ready}
-}
-
-% REFERENSI 14
-% LINK : file:///C:/Users/muham/Downloads/ISO-9241-11-2018.pdf
-@standard{iso9241,
-  title={ISO 9241-11:2018 Ergonomics of human-system interaction -- Part 11: Usability: Definitions and concepts},
-  organization={International Organization for Standardization},
-  year={2018},
-  address={Geneva, Switzerland},
-  note={Lihat halaman 2-3 untuk definisi Usability, Specified Users, dan Specified Context of Use}
-}
-
-% REFERENSI 15
-% LINK : file:///C:/Users/muham/Downloads/e=rapor.pdf
-@article{tuloli2022pengukuran,
-  title={Pengukuran Tingkat Usability Sistem Aplikasi e-Rapor Menggunakan Metode Usability Testing dan SUS},
-  author={Tuloli, Mohamad Syafri and Patalangi, Reonaldi and Takdir, Rahman},
-  journal={Jambura Journal of Informatics},
-  volume={4},
-  number={1},
-  pages={14--26},
-  year={2022},
-  doi={10.37905/jji.v4i1.13411},
-  note={Lihat halaman 24-25 untuk pembahasan interpretasi skor SUS}
 }
 
 % REFERENSI 16
@@ -209,6 +210,30 @@
 }
 
 % REFERENSI 17
+% LINK : file:///C:/Users/muham/Downloads/ISO-9241-11-2018.pdf
+@standard{iso9241,
+  title={ISO 9241-11:2018 Ergonomics of human-system interaction -- Part 11: Usability: Definitions and concepts},
+  organization={International Organization for Standardization},
+  year={2018},
+  address={Geneva, Switzerland},
+  note={Lihat halaman 2-3 untuk definisi Usability, Specified Users, dan Specified Context of Use}
+}
+
+% REFERENSI 18
+% LINK : file:///C:/Users/muham/Downloads/e=rapor.pdf
+@article{tuloli2022pengukuran,
+  title={Pengukuran Tingkat Usability Sistem Aplikasi e-Rapor Menggunakan Metode Usability Testing dan SUS},
+  author={Tuloli, Mohamad Syafri and Patalangi, Reonaldi and Takdir, Rahman},
+  journal={Jambura Journal of Informatics},
+  volume={4},
+  number={1},
+  pages={14--26},
+  year={2022},
+  doi={10.37905/jji.v4i1.13411},
+  note={Lihat halaman 24-25 untuk pembahasan interpretasi skor SUS}
+}
+
+% REFERENSI 19
 % LINK : https://jasemjournal.com/wp-content/uploads/2024/12/JASEM90101_Memonetal2025.pdf
 @article{memon2025purposive,
   title={Purposive Sampling: A Review and Guidelines for Quantitative Research},
@@ -221,7 +246,7 @@
   doi={10.47263/JASEM.9(1)01}
 }
 
-% REFERENSI 18
+% REFERENSI 20
 % LINK : file:///C:/Users/muham/Downloads/ajtas.20160501.11.pdf
 @article{etikan2016comparison,
   title={Comparison of Convenience Sampling and Purposive Sampling},
@@ -232,4 +257,68 @@
   pages={1--4},
   year={2016},
   doi={10.11648/j.ajtas.20160501.11}
+}
+
+% BAB 2 Kajian Literatur
+
+% Tabel 1 : Skripsi Nugraha 2023
+% Tabel 2 : Medisol
+% MEDISOL
+% LINK : https://jurnal.kharisma.ac.id/kharismatech/article/view/284/207
+@article{sari2023perancangan,
+  title={Perancangan UI/UX Pada Website Medisol Dengan Metode User Centered Design},
+  author={Sari, Pratiwy Anggraeny Puspita and Fajar, Mohammad and Arianti, Arianti},
+  journal={Jurnal KHARISMA Tech},
+  volume={18},
+  number={1},
+  pages={40--54},
+  year={2023},
+  month={mar},
+  publisher={Pusat Penelitian STMIK KHARISMA Makassar},
+  issn={1907-2317, 2810-0344},
+  url={https://jurnal.kharisma.ac.id/kharismatech/}
+}
+% Tabel 3 : Pengukuran Tingkat Usability Sistem Aplikasi e-Rapor Menggunakan Metode Usability Testing dan SUS (Tuloli et al., 2022) - sudah ada di referensi 18
+% Tabel 4 :
+% Tabel 5 :
+% Tabel 6 :
+
+% REFERENSI X
+% LINK : file:///C:/Users/muham/Downloads/JUS_Brooke_February_2013.pdf
+@article{brooke2013sus,
+  title={SUS: A Retrospective},
+  author={Brooke, John},
+  journal={Journal of Usability Studies},
+  volume={8},
+  number={2},
+  pages={29--40},
+  year={2013},
+  month={Feb}
+}
+
+% LINK : file:///C:/Users/muham/Downloads/1198-2420-1-PB.pdf
+@article{rizkiani2020greenhouse,
+  title={Greenhouse Sebagai Wadah Penelitian Hortikultura Pada Balai Penelitian Dan Pengembangan Tanaman Pangan Di Pemalang},
+  author={Rizkiani, Dyah Nikmah and Sumadyo, Amin and Marlina, Avi},
+  journal={SENTHONG: Jurnal Ilmiah Mahasiswa Arsitektur},
+  volume={3},
+  number={2},
+  pages={461--470},
+  year={2020},
+  month={Jul},
+  issn={2621-2609},
+  url={https://jurnal.ft.uns.ac.id/index.php/senthong/index}
+}
+
+% KANBAN IMAGE
+% LINK : https://www.researchgate.net/publication/359555609_Agile_Marketing_as_a_Key_Driver_to_Increasing_Operational_Efficiencies_and_Speed_to_Market
+% Entry for Jyoti Katare's article on Agile Marketing (2022)
+@article{katare2022agile,
+  title={Agile Marketing as a Key Driver to Increasing Operational Efficiencies and Speed to Market},
+  author={Katare, Jyoti},
+  journal={International Journal of Business Administration},
+  volume={13},
+  number={2},
+  year={2022},
+  publisher={Sciedu Press}
 }
