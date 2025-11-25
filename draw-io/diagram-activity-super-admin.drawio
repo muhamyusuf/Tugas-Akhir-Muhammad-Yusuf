@@ -1,0 +1,132 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36" version="29.1.1">
+  <diagram name="Page-1" id="fpmhkkVQn4SD5G8GPUNA">
+    <mxGraphModel dx="1603" dy="945" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="lane_admin" parent="1" style="swimlane;whiteSpace=wrap;html=1;startSize=23;" value="Super Admin" vertex="1">
+          <mxGeometry height="920" width="320" x="40" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="start" parent="lane_admin" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#000000;" vertex="1">
+          <mxGeometry height="30" width="30" x="145" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="act_login" parent="lane_admin" style="rounded=1;whiteSpace=wrap;html=1;" value="Input Username &amp; Password" vertex="1">
+          <mxGeometry height="40" width="160" x="80" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="dec_menu" parent="lane_admin" style="rhombus;whiteSpace=wrap;html=1;" value="Pilih Menu?" vertex="1">
+          <mxGeometry height="60" width="100" x="110" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="act_menu_notif" parent="lane_admin" style="rounded=1;whiteSpace=wrap;html=1;" value="Lihat Notifikasi" vertex="1">
+          <mxGeometry height="40" width="120" x="20" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="act_menu_kelola" parent="lane_admin" style="rounded=1;whiteSpace=wrap;html=1;" value="Menu Kelola Otomatisasi" vertex="1">
+          <mxGeometry height="50" width="140" x="170" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="act_pilih_hapus" parent="lane_admin" style="rounded=1;whiteSpace=wrap;html=1;" value="Pilih Data &amp; Klik Hapus" vertex="1">
+          <mxGeometry height="40" width="140" x="130" y="520" as="geometry" />
+        </mxCell>
+        <mxCell id="act_confirm" parent="lane_admin" style="rounded=1;whiteSpace=wrap;html=1;" value="Konfirmasi: Ya" vertex="1">
+          <mxGeometry height="40" width="140" x="130" y="660" as="geometry" />
+        </mxCell>
+        <mxCell id="act_logout" parent="lane_admin" style="rounded=1;whiteSpace=wrap;html=1;" value="Logout" vertex="1">
+          <mxGeometry height="40" width="160" x="80" y="800" as="geometry" />
+        </mxCell>
+        <mxCell id="end_inner" parent="lane_admin" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#000000;strokeColor=#000000;strokeWidth=4;" vertex="1">
+          <mxGeometry height="20" width="20" x="150" y="870" as="geometry" />
+        </mxCell>
+        <mxCell id="end_outer" parent="lane_admin" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=none;strokeColor=#000000;strokeWidth=4;" vertex="1">
+          <mxGeometry height="35" width="35" x="142.5" y="862.5" as="geometry" />
+        </mxCell>
+        <mxCell id="lane_sys" parent="1" style="swimlane;whiteSpace=wrap;html=1;startSize=23;" value="Sistem" vertex="1">
+          <mxGeometry height="920" width="320" x="360" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="dec_valid" parent="lane_sys" style="rhombus;whiteSpace=wrap;html=1;" value="Valid?" vertex="1">
+          <mxGeometry height="60" width="80" x="120" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="act_dash" parent="lane_sys" style="rounded=1;whiteSpace=wrap;html=1;" value="Tampilkan Dashboard" vertex="1">
+          <mxGeometry height="40" width="160" x="80" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="act_show_notif" parent="lane_sys" style="rounded=1;whiteSpace=wrap;html=1;" value="Tampilkan Data Notifikasi" vertex="1">
+          <mxGeometry height="40" width="140" x="20" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="act_show_list" parent="lane_sys" style="rounded=1;whiteSpace=wrap;html=1;" value="Tampilkan Daftar Data" vertex="1">
+          <mxGeometry height="40" width="130" x="175" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="act_prompt" parent="lane_sys" style="rounded=1;whiteSpace=wrap;html=1;" value="Tampilkan Pop-up&#xa;Konfirmasi Hapus?" vertex="1">
+          <mxGeometry height="40" width="140" x="150" y="590" as="geometry" />
+        </mxCell>
+        <mxCell id="act_delete_db" parent="lane_sys" style="rounded=1;whiteSpace=wrap;html=1;" value="Hapus Data dari DB" vertex="1">
+          <mxGeometry height="40" width="130" x="140" y="730" as="geometry" />
+        </mxCell>
+        <mxCell id="e1" edge="1" parent="1" source="start" target="act_login">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e2" edge="1" parent="1" source="act_login" target="dec_valid">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_fail" edge="1" parent="1" source="dec_valid" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;entryX=0.796;entryY=-0.016;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" target="act_login" value="Tidak">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="520" y="120" />
+              <mxPoint x="247" y="120" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e_ok" edge="1" parent="1" source="dec_valid" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;" target="act_dash" value="Ya">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_dash" edge="1" parent="1" source="act_dash" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;" target="dec_menu">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_to_notif" edge="1" parent="1" source="dec_menu" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;" target="act_menu_notif">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_to_kelola" edge="1" parent="1" source="dec_menu" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;" target="act_menu_kelola">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_back1" edge="1" parent="1" source="act_show_notif" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="430" y="790" />
+              <mxPoint x="200" y="790" />
+            </Array>
+            <mxPoint x="200" y="840" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e_sys_list" edge="1" parent="1" source="act_menu_kelola" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;" target="act_show_list">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_pilih" edge="1" parent="1" source="act_show_list" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;" target="act_pilih_hapus">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_prompt" edge="1" parent="1" source="act_pilih_hapus" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;" target="act_prompt">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_confirm" edge="1" parent="1" source="act_prompt" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;" target="act_confirm">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_do_delete" edge="1" parent="1" source="act_confirm" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;" target="act_delete_db">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_back2" edge="1" parent="1" source="act_delete_db" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;entryX=1;entryY=0.5;" target="act_logout">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="560" y="860" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e_end" edge="1" parent="1" source="act_logout">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="200" y="900" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e_sys_notif" edge="1" parent="1" source="act_menu_notif" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="act_show_notif">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="70" y="460.00448275862084" as="sourcePoint" />
+            <mxPoint x="270" y="500.00448275862084" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
